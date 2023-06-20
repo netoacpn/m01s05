@@ -10,3 +10,25 @@
  *      remover os elementos do array compreendidos entre os índices inicial e final. Em seguida, retorna o
  *      array atualizado.
  */
+
+let cars = ['Gol', 'Voyage', 'Saveiro', 'Virtus', 'Polo', 'Jetta']
+
+console.log(cars)
+
+function adicionarElemento() {cars.push('Golf')}
+
+adicionarElemento()
+
+console.log(cars)
+
+function removerUltimoElemento() {cars.pop()}
+
+removerUltimoElemento()
+
+console.log(cars)
+
+function removerElementosIntervalo() {cars.splice(1, 2)} 
+
+removerElementosIntervalo()
+
+console.log(cars)
