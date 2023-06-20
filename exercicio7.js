@@ -15,20 +15,14 @@ let cars = ['Gol', 'Voyage', 'Saveiro', 'Virtus', 'Polo', 'Jetta']
 
 console.log(cars)
 
-function adicionarElemento() {cars.push('Golf')}
+function adicionarElemento() {{cars.push('Golf')} console.log(cars)} 
 
 adicionarElemento()
 
-console.log(cars)
-
-function removerUltimoElemento() {cars.pop()}
+function removerUltimoElemento() {{cars.pop()} console.log(cars)} 
 
 removerUltimoElemento()
 
-console.log(cars)
-
-function removerElementosIntervalo() {cars.splice(1, 2)} 
+function removerElementosIntervalo() {{cars.splice(1, 2)} console.log(cars)} 
 
 removerElementosIntervalo()
-
-console.log(cars)
