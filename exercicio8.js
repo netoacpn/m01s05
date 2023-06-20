@@ -5,3 +5,12 @@
  * matemática. A função `calculadora` executa a operação matemática nos dois números fornecidos e retorna o resultado.
  * Testa a função utilizando diferentes operações como adição, subtração, multiplicação e divisão.
  */
+
+function calculadora(numero1, numero2){
+    console.log(numero1 + numero2)
+    console.log(numero1 - numero2)
+    console.log(numero1 * numero2)
+    console.log(numero1 / numero2)
+}
+
+calculadora(121, 57)
