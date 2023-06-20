@@ -8,13 +8,13 @@
  */
 
 let numero = 200
-let i1 = 0
-let i2 = 1
-let i3 = 0
+let n1 = 0
+let n2 = 1
+let n3 = 0
 
-while (i1 < numero) {
-    console.log(i1)
-    i3 = i1 + i2;
-    i2 = i1
-    i1 = i3
+while (n1 < numero) {
+    console.log(n1)
+    n3 = n1 + n2;
+    n2 = n1
+    n1 = n3
 }
