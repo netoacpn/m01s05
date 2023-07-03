@@ -8,7 +8,7 @@
 
 let ePrimo = true;
 
-let numero = 9;
+let numero = 11;
 
 let i = numero - 1;
 
@@ -19,8 +19,4 @@ while (i != 1) {
     i--;
 }
 
-if (ePrimo) {
-    console.log(`${numero} é um número primo.`);
-} else {
-    console.log(`${numero} não é um número primo.`);
-}
+return (ePrimo == true) ? console.log(`${numero} é um número primo.`) : console.log(`${numero} não é um número primo.`);
