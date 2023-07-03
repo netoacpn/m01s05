@@ -5,3 +5,22 @@
  * é um número primo. Um número primo é aquele que é divisível apenas por 1 e por ele mesmo.
  * Utiliza uma estrutura de repetição (do while) para verificar as divisões.
  */
+
+let ePrimo = true;
+
+let numero = 9;
+
+let i = numero - 1;
+
+while (i != 1) {
+    if (numero % i == 0) {
+        ePrimo = false;
+    }
+    i--;
+}
+
+if (ePrimo) {
+    console.log(`${numero} é um número primo.`);
+} else {
+    console.log(`${numero} não é um número primo.`);
+}
